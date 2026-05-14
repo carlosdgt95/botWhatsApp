@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-bot-soporte",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp con menú de atención al cliente",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
